@@ -1,11 +1,17 @@
 body{
-	margin: 125px 0px 0px 0px;
+	margin: 140px 0px 0px 0px;
 	background-image: url("../images/ruffle2.png");
 	color:#777777;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 17px;
 }
-
+.centerSection {
+    margin-left:auto;
+    margin-right:auto;
+    overflow: auto;
+    width:960px;
+    margin-bottom:40px;
+}
 
 h1{
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -15,11 +21,11 @@ h1{
 	margin:0px;
 	color: white;
 	float:left;
-	line-height: 32px;
+	line-height: 80px;
 	margin: 0px 36.2% 0px 10%;
 	text-align: center;
 	width: 20%;
-	padding:32px 7px 32px 7px;
+
 }
 
 p{
@@ -50,6 +56,7 @@ h3{
 
 header{
 	background-color: #ffffff;
+	outline: 1px solid red;
 	position:fixed;
 	top:0px;
 	margin:0px;
@@ -61,13 +68,9 @@ header{
 .nav{
 	float:left;
 	text-align: center;
-	padding: 32px;
-	line-height: 32px;
+	line-height: 80px;
 	width: auto;
 	margin: 0px;
-}
-
-.centerSection{
 }
 
 .mainContent{
@@ -76,7 +79,7 @@ header{
 	border: 2px solid #aaaaaa;
 	width: 650px;
 	height: 480px;
-	margin: 0px 40px 40px 10%;
+	margin: 0px 20px 0px 0px;
 	float:left;
 }
 
@@ -90,10 +93,10 @@ header{
 .contactInfo{
 	text-align: center;
 	padding:22px;
-	width:260px;
+	width:170px;
 	background-color: #ffffff;
 	overflow: auto;
-	margin: 40px 0px 0px 0px;
+	margin: 0px;
 	border: 1px solid #bbbbbb;
 }
 
@@ -130,14 +133,16 @@ a:active {
 }
 
 footer{
-	width:100%;
-	padding:32px;
+	margin-left:auto;
+    margin-right:auto;
+    overflow: auto;
+	padding:0px;
 	overflow: auto;
 	background-color: #666666;
-	line-height: 32px;
+	line-height: 80px;
 	text-align: center;
 	color: #cccccc;
-	font-size: 12px;
+	font-size: 14px;
 	border-top: 10px solid #4aaaa5;
 	font-weight: lighter;
 }
