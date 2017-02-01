@@ -6,10 +6,13 @@ body{
 	font-size: 17px;
 }
 
-h1{
+h1, h2, h3{
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	color: #4aaaa5;
+}
+h1{
 	font-size: 30px;
-	font-weight:bold;
 	background-color: #4aaaa5;
 	color: white;
 	float:left;
@@ -23,13 +26,10 @@ h1{
 
 p{
 	line-height: 35px;
-
 }
 
+
 h2{
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
-	font-weight:bold;
 	font-size: 28px;
 	padding: 0px 0px 32px 0px;
 	margin: 0px 0px 32px 0px;
@@ -38,9 +38,7 @@ h2{
 
 h3{
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
 	padding: 0px 0px 20px 0px;
-	font-weight:bold;
 	margin: 0px 0px 20px 0px;
 	border-bottom: 1px solid #cccccc;
 
@@ -108,13 +106,13 @@ header{
 }
 
 a:link {
-    color: #cccccc;
+    color: #777777;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:visited {
-    color: #777777;
+    color: #bbbbbb;
     font-weight: bold;
 }
 
